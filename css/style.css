@@ -294,6 +294,8 @@ body {
   margin-bottom: 16px;
 }
 .container {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo {
   color: var(--cloud-color);
