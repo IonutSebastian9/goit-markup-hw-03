@@ -19,7 +19,7 @@ p {
 html {
   box-sizing: border-box;
 }
-*::after,
+::after,
 ::before {
   box-sizing: inherit;
 }
