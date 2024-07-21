@@ -291,7 +291,6 @@ body {
 .footer-section {
   background-color: var(--navy-blue-text);
   padding: 100px 0;
-  display: inline-block;
   margin-bottom: 16px;
 }
 .container {
