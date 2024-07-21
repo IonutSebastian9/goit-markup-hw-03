@@ -89,6 +89,7 @@ body {
   color: var(--navy-blue-text);
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .header-list {
   display: flex;
@@ -106,6 +107,10 @@ body {
   letter-spacing: 0.02em;
   font-style: normal;
   color: var(--slate-text);
+  display: flex;
+  gap: 40px;
+}
+.addres-list {
   display: flex;
   gap: 40px;
 }
