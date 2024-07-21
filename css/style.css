@@ -293,7 +293,9 @@ body {
   padding: 100px 0;
   margin-bottom: 16px;
 }
-
+.container {
+  display: inline-block;
+}
 .footer-logo {
   color: var(--cloud-color);
   font-family: "Raleway", sans-serif;
@@ -314,7 +316,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-}
-.container {
-  display: inline-block;
 }
