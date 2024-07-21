@@ -159,12 +159,23 @@ body {
 .primary-button:focus {
   background-color: var(--primary-color-ocean);
 }
+.second-section {
+  padding: 120px 0;
+}
+.second-section-list {
+  display: flex;
+  gap: 24px;
+}
+.second-section-list-items {
+  width: calc((100% - 72px) / 4);
+}
 .features-titles {
   color: var(--navy-blue-text);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .features-description {
   color: var(--slate-text);
