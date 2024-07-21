@@ -101,6 +101,14 @@ body {
 .header-link:focus {
   color: #404bbf;
 }
+.addres-header-list {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: var(--slate-text);
+  display: flex;
+  gap: 40px;
+}
 .address-header-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
