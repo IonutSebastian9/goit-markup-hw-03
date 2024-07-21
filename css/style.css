@@ -287,6 +287,14 @@ body {
 .header-logo {
   color: var(--navy-blue-text);
 }
+.footer-section {
+  background-color: var(--navy-blue-text);
+  padding: 100px 0;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.container {
+}
 .footer-logo {
   color: var(--cloud-color);
   font-family: "Raleway", sans-serif;
@@ -304,7 +312,5 @@ body {
   color: var(--cloud-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.footer-section {
-  background-color: var(--navy-blue-text);
+  max-width: 264px;
 }
