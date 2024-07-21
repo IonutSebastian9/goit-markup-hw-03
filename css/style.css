@@ -62,6 +62,8 @@ body {
 .container {
   display: flex;
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-logo {
@@ -72,6 +74,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-span {
   color: var(--navy-blue-text);
@@ -84,6 +87,15 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--navy-blue-text);
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+.header-item {
+  padding: 24px 0;
 }
 .header-link:hover,
 .header-link:focus {
@@ -94,6 +106,8 @@ body {
   letter-spacing: 0.02em;
   font-style: normal;
   color: var(--slate-text);
+  display: flex;
+  gap: 40px;
 }
 .address-header-link:hover,
 .address-header-link:focus {
