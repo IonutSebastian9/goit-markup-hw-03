@@ -166,6 +166,9 @@ body {
   display: flex;
   gap: 24px;
 }
+.visually-hidden {
+  display: none;
+}
 .second-section-list-items {
   width: calc((100% - 72px) / 4);
 }
