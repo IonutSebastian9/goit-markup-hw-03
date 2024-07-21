@@ -170,7 +170,7 @@ body {
   display: none;
 }
 .second-section-list-items {
-  width: calc((100% - 72px) / 4);
+ flex-basis: calc((100% - 72px) / 4))
 }
 .features-titles {
   color: var(--navy-blue-text);
